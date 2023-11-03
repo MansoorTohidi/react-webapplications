@@ -1,7 +1,7 @@
 {
-  "homepage": "http://mansoortohidi.github.io/reactapplications",
   "name": "test1",
   "version": "0.1.0",
+  "homepage": "http://mansoortohidi.github.io/reactapplications",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.4.2",
