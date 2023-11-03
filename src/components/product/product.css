@@ -1,0 +1,133 @@
+
+.cards{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(160px,1fr));
+  gap:2rem;
+  margin: 5rem 2rem;
+ 
+}
+
+.twocards{
+  display: flex;
+  justify-content: center;
+  gap:2rem;
+  margin: 5rem 2rem;
+
+  
+
+}
+
+
+
+
+
+
+
+.card{ 
+ 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid rgb(214, 214, 214);
+  border-radius: 0.4rem;
+  
+}
+
+
+
+
+
+
+
+
+.titleCart{
+  font-size: 2rem;
+  padding: 4% 4%;
+ 
+ 
+}
+
+.addBtn{
+  background-color: blue;
+  font-size: 1.2rem;
+  width: 2rem;
+  cursor: pointer;
+  border-radius: 4px;
+  color: white;
+  
+  
+
+}
+
+
+.subBtn{
+background-color: rgb(255, 6, 68);
+font-size: 1.2rem;
+width: 2rem;
+cursor: pointer;
+border-radius: 4px;
+color: white;
+
+}
+
+
+
+.buttons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  user-select: none;
+  width: 10rem;
+  margin-top: 2rem;
+  padding:4% 2%;
+  text-align: center;
+
+}
+
+
+.count{
+  width: 2rem;
+  background-color: rgb(194, 197, 197);
+  text-align: center;
+  border-radius: 4px;
+}
+
+
+.header{
+  
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem;
+  align-items: center;
+}
+
+.shopName{
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.basket{
+
+color: rgb(0, 0, 0);
+position: relative;
+font-size: 1.7rem;
+
+
+  
+}
+.allcounts{
+  position: absolute;
+  left: 1rem;
+  bottom: 1.6rem;
+  background-color: crimson;
+  color: white;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 2rem;
+  font-size: 1.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,109 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  border: 9px solid rgb(218, 218, 218);
+  width: 300px;
+  margin: auto;
+  border-radius: 1rem;
+  padding: 2% 2%;
+  min-height: 30rem;
+  background-image: linear-gradient(rgb(216, 9, 216) 0%,rgb(46, 0, 59) 100%);
+  color: white;
+ 
+}
+
+.citytemp{
+  
+  margin-top: 1rem;
+  font-size: 2rem;
+}
+
+.cityname{
+  
+  margin-top: 1rem;
+  font-size: 2rem;
+
+}
+
+
+
+.cityhumadity{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 1rem;
+  gap: 1rem;
+  font-size: 2rem;
+  margin-left: 0rem;
+  
+
+}
+
+.weatherInfo{
+  
+  margin-top: 1rem;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.form{
+  border: 2px solid rgb(216, 215, 215);
+  position: relative;
+  padding: 2% 2%;
+  border-radius: 8px;
+  display: flex;
+}
+
+.form input{
+  outline: none;
+  border: none;
+  padding: 4% 8%;
+  background-color: rgb(255, 91, 228);
+  border-radius: 6px;
+  width: 100%;
+  font-size: 1.4rem;
+  color: rgb(54, 2, 102);
+}
+
+.form input::placeholder{
+ 
+  color: rgb(255, 160, 199);
+}
+
+
+
+
+
+
+
+
+.form button{
+  outline: none;
+  border: none;
+  padding: 3% 5%;
+  background-color:none;
+  border-radius: 50%;
+  margin-left: -3rem;
+  background-color: rgb(255, 74, 225);
+  color: white;
+  font-size: 1.4rem;
+  
+
+}
+
+.iconweather img{
+  width: 120px;
+
+}
+
+
+@media(max-width:900px){
+  .container{
+    margin-top: 1rem;
+  }
+}
