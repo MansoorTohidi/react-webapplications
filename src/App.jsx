@@ -68,12 +68,12 @@ if(copyItem[index].count===0){
         <shopContext.Provider value={{item,addItem,deleteItem,allCounts,allPrices}}>
         <BrowserRouter>
         <Routes>
-         <Route path="/" Component={Login} />    
+         <Route path="/reactapplications" Component={Login} />    
          <Route path="/calculator" Component={Calculator}  />
          <Route path="/shopping" Component={Shopping} />
          <Route path="/weather" Component={Weather} />
          <Route path="/myitem" Component={Myitem} />
-         <Route path="*" element={<Navigate to="/" />} />
+         <Route path="*" element={<Navigate to="/reactapplications" />} />
         </Routes>
         </BrowserRouter>
         </shopContext.Provider>
