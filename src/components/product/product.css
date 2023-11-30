@@ -7,38 +7,25 @@
  
 }
 
+
 .twocards{
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   gap:2rem;
   margin: 5rem 2rem;
-
-  
-
 }
 
 
-
-
-
-
-
 .card{ 
- 
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   border: 3px solid rgb(214, 214, 214);
   border-radius: 0.4rem;
-  
+  padding: 3% 3%;
 }
-
-
-
-
-
-
 
 
 .titleCart{
@@ -114,9 +101,8 @@ color: rgb(0, 0, 0);
 position: relative;
 font-size: 1.7rem;
 
-
-  
 }
+
 .allcounts{
   position: absolute;
   left: 1rem;

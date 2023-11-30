@@ -13,7 +13,7 @@
      background-color: rgb(216, 216, 216);
      color: #101820;
      font-size: 1.2rem;
-     border-radius:3rem ;
+     border-radius:1rem ;
     
      
 }
@@ -61,6 +61,19 @@
         align-items: center;
     
     }
+    .btnRg{
+        padding: 2%;
+        font-size: 1.2rem;
+        width: 90%;
+        
+    }
+
+    .inputValue{
+        width: 90%;
+        border-radius:1rem ;
+       
+        
+   }
 
 
 
