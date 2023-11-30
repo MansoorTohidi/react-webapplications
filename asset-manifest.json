@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/react-webapplications/static/css/main.6adff390.css",
+    "main.js": "/react-webapplications/static/js/main.3d254297.js",
+    "static/media/cloud.png": "/react-webapplications/static/media/cloud.20f353f873a9b27949a9.png",
+    "index.html": "/react-webapplications/index.html",
+    "main.6adff390.css.map": "/react-webapplications/static/css/main.6adff390.css.map",
+    "main.3d254297.js.map": "/react-webapplications/static/js/main.3d254297.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6adff390.css",
+    "static/js/main.3d254297.js"
+  ]
+}
